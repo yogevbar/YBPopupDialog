@@ -1,0 +1,16 @@
+PODS:
+  - YBPopupDialog (0.1.0)
+
+DEPENDENCIES:
+  - YBPopupDialog (from `../`)
+
+EXTERNAL SOURCES:
+  YBPopupDialog:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YBPopupDialog: 0c9732d5cd139ee629023cfac8e2e05922f035d3
+
+PODFILE CHECKSUM: f718ba8383da479a4a4ba2c1ccbc476d7d2af531
+
+COCOAPODS: 1.0.1

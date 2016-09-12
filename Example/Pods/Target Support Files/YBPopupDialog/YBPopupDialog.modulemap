@@ -1,0 +1,6 @@
+framework module YBPopupDialog {
+  umbrella header "YBPopupDialog-umbrella.h"
+
+  export *
+  module * { export * }
+}

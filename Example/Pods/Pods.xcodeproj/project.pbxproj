@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B2FD4E9B8389E72A97513922BAB7478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		27E76828AC6A70E82A8FB26109020F65 /* Pods-YBPopupDialog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 982C05A308DB64A46DCC0974C8ACC6BE /* Pods-YBPopupDialog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C13010EE50D5137AE3EFE1E97CD6E75 /* Pods-YBPopupDialog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5745D7688226381CB43524356522FA /* Pods-YBPopupDialog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F84C54236E499553612B1D708FC93A9 /* Pods-YBPopupDialog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0952C2EC73C4653E4EE757B56EE5BFD8 /* Pods-YBPopupDialog_Tests-dummy.m */; };
+		61F0CB5781DC500904096159515E8654 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6A98BE7CF0E0A76A3CCAF5F75416 /* ReplaceMe.m */; };
+		7AC109864EE4B20C25475E2D56003EC6 /* YBPopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE946A5C31EB45F9EDE1188679608B /* YBPopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD800799DC577D9C581595EBE46ABC49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		CEC965E23BF159971922EA9CDF148D2D /* YBPopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A39934D9309EE6925FCA03CE52FDAA /* YBPopupDialog-dummy.m */; };
+		D7829188738AC12E8F381DE4A0ED89E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F24F5204CFCF9A91FE721D1BFEEB5973 /* Pods-YBPopupDialog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFE9DFCAE7245F4AA961E856074B951 /* Pods-YBPopupDialog_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A35294B1E3A136EA7FC623B76A61735 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA692440A16913A1AE02ABEC37DDA3AD;
+			remoteInfo = YBPopupDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FE946A5C31EB45F9EDE1188679608B /* YBPopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBPopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		02C142BFD0A892751BC02DDD043ED0A2 /* Pods_YBPopupDialog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBPopupDialog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0952C2EC73C4653E4EE757B56EE5BFD8 /* Pods-YBPopupDialog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBPopupDialog_Tests-dummy.m"; sourceTree = "<group>"; };
+		0EEC9293E751622703E45B1509617EF1 /* Pods-YBPopupDialog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBPopupDialog_Example-resources.sh"; sourceTree = "<group>"; };
+		3B4F4B4BB2D165C5F2E78AE26D7CDE55 /* Pods-YBPopupDialog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPopupDialog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4690DCFAED12C37E060E1E467C33DC3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CDD54D52FFC17EEC869C0607CCB8F7D /* Pods-YBPopupDialog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBPopupDialog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53EA6FC363B65EE8DF7071AE74EA4DAA /* Pods-YBPopupDialog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YBPopupDialog_Tests.modulemap"; sourceTree = "<group>"; };
+		64973A9C6F6B5F267022B26F48D0DB2D /* Pods-YBPopupDialog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBPopupDialog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		68FE0F2EED457E417A32CB060B029B74 /* YBPopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YBPopupDialog.modulemap; sourceTree = "<group>"; };
+		71138F4F21B2ED7188B8DD4360BA294C /* Pods-YBPopupDialog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YBPopupDialog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		883FDA6DFD2D3EBA54FE1A3326AA724D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A39934D9309EE6925FCA03CE52FDAA /* YBPopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YBPopupDialog-dummy.m"; sourceTree = "<group>"; };
+		89FEE64537F7E61D55F5E80F6C6880F2 /* Pods-YBPopupDialog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPopupDialog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8C5745D7688226381CB43524356522FA /* Pods-YBPopupDialog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBPopupDialog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C7ACC4B837A42C3B4808FD048EF891 /* YBPopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YBPopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		982C05A308DB64A46DCC0974C8ACC6BE /* Pods-YBPopupDialog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YBPopupDialog_Example-umbrella.h"; sourceTree = "<group>"; };
+		9BFE9DFCAE7245F4AA961E856074B951 /* Pods-YBPopupDialog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YBPopupDialog_Example-dummy.m"; sourceTree = "<group>"; };
+		BD621C9D644EC6FA1DFE56211DED8710 /* Pods-YBPopupDialog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBPopupDialog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C0936598D25920CAF31B41B5A79245B5 /* YBPopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YBPopupDialog.xcconfig; sourceTree = "<group>"; };
+		C35ABF5B8D8CB1B780A62AE17107D02D /* Pods-YBPopupDialog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPopupDialog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C51A5DA622D7B810C0E033C8E89A926A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5D6A98BE7CF0E0A76A3CCAF5F75416 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5E82EDA5F4FAD618A1C5548D743729D /* YBPopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YBPopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0CCE1970DD8D280DA91C7D2564195A /* Pods-YBPopupDialog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YBPopupDialog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E41EE0633820029F72D4CFF8CC8766C5 /* Pods-YBPopupDialog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YBPopupDialog_Example.modulemap"; sourceTree = "<group>"; };
+		EF92F61012746F298B6EED6536583488 /* Pods-YBPopupDialog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPopupDialog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F789020D66E1FBC0EA3EC7FA7CBCDFD0 /* Pods_YBPopupDialog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBPopupDialog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7964B67B3F832BFDF73868816AE44FF /* Pods-YBPopupDialog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YBPopupDialog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FF7F32E973FAABEF5DDFE109C4641CE6 /* Pods-YBPopupDialog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YBPopupDialog_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734FA026E53EF101531354F3B6BB3DEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7829188738AC12E8F381DE4A0ED89E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764BCE1C2189E5528471658CA14C4AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD800799DC577D9C581595EBE46ABC49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C6D5AB62D4B57F805D1D5712836C88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B2FD4E9B8389E72A97513922BAB7478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C1D671F67FBB1230108C849CF0D1BD4 /* Pods-YBPopupDialog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				883FDA6DFD2D3EBA54FE1A3326AA724D /* Info.plist */,
+				E41EE0633820029F72D4CFF8CC8766C5 /* Pods-YBPopupDialog_Example.modulemap */,
+				4CDD54D52FFC17EEC869C0607CCB8F7D /* Pods-YBPopupDialog_Example-acknowledgements.markdown */,
+				C35ABF5B8D8CB1B780A62AE17107D02D /* Pods-YBPopupDialog_Example-acknowledgements.plist */,
+				9BFE9DFCAE7245F4AA961E856074B951 /* Pods-YBPopupDialog_Example-dummy.m */,
+				BD621C9D644EC6FA1DFE56211DED8710 /* Pods-YBPopupDialog_Example-frameworks.sh */,
+				0EEC9293E751622703E45B1509617EF1 /* Pods-YBPopupDialog_Example-resources.sh */,
+				982C05A308DB64A46DCC0974C8ACC6BE /* Pods-YBPopupDialog_Example-umbrella.h */,
+				F7964B67B3F832BFDF73868816AE44FF /* Pods-YBPopupDialog_Example.debug.xcconfig */,
+				EF92F61012746F298B6EED6536583488 /* Pods-YBPopupDialog_Example.release.xcconfig */,
+			);
+			name = "Pods-YBPopupDialog_Example";
+			path = "Target Support Files/Pods-YBPopupDialog_Example";
+			sourceTree = "<group>";
+		};
+		600EC4C4A6BD4788990338C9735C68AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D671F67FBB1230108C849CF0D1BD4 /* Pods-YBPopupDialog_Example */,
+				D5EE8EFACCD4EF536DE6A1FEB44D276D /* Pods-YBPopupDialog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		78B73B47D925B088E228B1517B400E5C /* YBPopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				EDEC1E1166550DCDEF66E9CDADD44EBF /* Support Files */,
+				DE3022D8AD6FC04C1CB4CEA777B9F612 /* YBPopupDialog */,
+			);
+			name = YBPopupDialog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D89979865955E723AC51FCFC4E74FB17 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				99EEB766A2885D492013F6C520CD66C6 /* Products */,
+				600EC4C4A6BD4788990338C9735C68AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		99EEB766A2885D492013F6C520CD66C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F789020D66E1FBC0EA3EC7FA7CBCDFD0 /* Pods_YBPopupDialog_Example.framework */,
+				02C142BFD0A892751BC02DDD043ED0A2 /* Pods_YBPopupDialog_Tests.framework */,
+				D5E82EDA5F4FAD618A1C5548D743729D /* YBPopupDialog.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5849A34032F578E2658DE470C02F95B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D6A98BE7CF0E0A76A3CCAF5F75416 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5EE8EFACCD4EF536DE6A1FEB44D276D /* Pods-YBPopupDialog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C51A5DA622D7B810C0E033C8E89A926A /* Info.plist */,
+				53EA6FC363B65EE8DF7071AE74EA4DAA /* Pods-YBPopupDialog_Tests.modulemap */,
+				71138F4F21B2ED7188B8DD4360BA294C /* Pods-YBPopupDialog_Tests-acknowledgements.markdown */,
+				DB0CCE1970DD8D280DA91C7D2564195A /* Pods-YBPopupDialog_Tests-acknowledgements.plist */,
+				0952C2EC73C4653E4EE757B56EE5BFD8 /* Pods-YBPopupDialog_Tests-dummy.m */,
+				64973A9C6F6B5F267022B26F48D0DB2D /* Pods-YBPopupDialog_Tests-frameworks.sh */,
+				FF7F32E973FAABEF5DDFE109C4641CE6 /* Pods-YBPopupDialog_Tests-resources.sh */,
+				8C5745D7688226381CB43524356522FA /* Pods-YBPopupDialog_Tests-umbrella.h */,
+				3B4F4B4BB2D165C5F2E78AE26D7CDE55 /* Pods-YBPopupDialog_Tests.debug.xcconfig */,
+				89FEE64537F7E61D55F5E80F6C6880F2 /* Pods-YBPopupDialog_Tests.release.xcconfig */,
+			);
+			name = "Pods-YBPopupDialog_Tests";
+			path = "Target Support Files/Pods-YBPopupDialog_Tests";
+			sourceTree = "<group>";
+		};
+		D89979865955E723AC51FCFC4E74FB17 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B73B47D925B088E228B1517B400E5C /* YBPopupDialog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE3022D8AD6FC04C1CB4CEA777B9F612 /* YBPopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				B5849A34032F578E2658DE470C02F95B /* Classes */,
+			);
+			path = YBPopupDialog;
+			sourceTree = "<group>";
+		};
+		EDEC1E1166550DCDEF66E9CDADD44EBF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4690DCFAED12C37E060E1E467C33DC3E /* Info.plist */,
+				68FE0F2EED457E417A32CB060B029B74 /* YBPopupDialog.modulemap */,
+				C0936598D25920CAF31B41B5A79245B5 /* YBPopupDialog.xcconfig */,
+				89A39934D9309EE6925FCA03CE52FDAA /* YBPopupDialog-dummy.m */,
+				93C7ACC4B837A42C3B4808FD048EF891 /* YBPopupDialog-prefix.pch */,
+				00FE946A5C31EB45F9EDE1188679608B /* YBPopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YBPopupDialog";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		49B63CB1DA712B9060125412EAB3EE04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC109864EE4B20C25475E2D56003EC6 /* YBPopupDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A26B0A2687BDB7D1FD975FBDDDEBB93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C13010EE50D5137AE3EFE1E97CD6E75 /* Pods-YBPopupDialog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990DA7792C1D456E63A14AD5CE8988EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E76828AC6A70E82A8FB26109020F65 /* Pods-YBPopupDialog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71660A704EB88BD7023488EC2DE77A8C /* Pods-YBPopupDialog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4C85676E2816AB7DFE5C5929AFA8A2F /* Build configuration list for PBXNativeTarget "Pods-YBPopupDialog_Tests" */;
+			buildPhases = (
+				4C75AD31288C719D405D1D3B31A0C35B /* Sources */,
+				764BCE1C2189E5528471658CA14C4AF0 /* Frameworks */,
+				5A26B0A2687BDB7D1FD975FBDDDEBB93 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YBPopupDialog_Tests";
+			productName = "Pods-YBPopupDialog_Tests";
+			productReference = 02C142BFD0A892751BC02DDD043ED0A2 /* Pods_YBPopupDialog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCBAD142C3EEC510CAB6A2AB63EE4871 /* Pods-YBPopupDialog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C40A85CDCD0C1515A0BA46EC49E3633 /* Build configuration list for PBXNativeTarget "Pods-YBPopupDialog_Example" */;
+			buildPhases = (
+				8DDFDD06773D52399CB416FF1390C11C /* Sources */,
+				B9C6D5AB62D4B57F805D1D5712836C88 /* Frameworks */,
+				990DA7792C1D456E63A14AD5CE8988EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21E970CCC40E88E9FFFC7E1C8CC7DDFE /* PBXTargetDependency */,
+			);
+			name = "Pods-YBPopupDialog_Example";
+			productName = "Pods-YBPopupDialog_Example";
+			productReference = F789020D66E1FBC0EA3EC7FA7CBCDFD0 /* Pods_YBPopupDialog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA692440A16913A1AE02ABEC37DDA3AD /* YBPopupDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F328ABFD0F11C3DEFB092B8F770308 /* Build configuration list for PBXNativeTarget "YBPopupDialog" */;
+			buildPhases = (
+				08486CDBD6F6C786819498D4157C2B96 /* Sources */,
+				734FA026E53EF101531354F3B6BB3DEF /* Frameworks */,
+				49B63CB1DA712B9060125412EAB3EE04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YBPopupDialog;
+			productName = YBPopupDialog;
+			productReference = D5E82EDA5F4FAD618A1C5548D743729D /* YBPopupDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 99EEB766A2885D492013F6C520CD66C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCBAD142C3EEC510CAB6A2AB63EE4871 /* Pods-YBPopupDialog_Example */,
+				71660A704EB88BD7023488EC2DE77A8C /* Pods-YBPopupDialog_Tests */,
+				DA692440A16913A1AE02ABEC37DDA3AD /* YBPopupDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08486CDBD6F6C786819498D4157C2B96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F0CB5781DC500904096159515E8654 /* ReplaceMe.m in Sources */,
+				CEC965E23BF159971922EA9CDF148D2D /* YBPopupDialog-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C75AD31288C719D405D1D3B31A0C35B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F84C54236E499553612B1D708FC93A9 /* Pods-YBPopupDialog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DDFDD06773D52399CB416FF1390C11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24F5204CFCF9A91FE721D1BFEEB5973 /* Pods-YBPopupDialog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21E970CCC40E88E9FFFC7E1C8CC7DDFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YBPopupDialog;
+			target = DA692440A16913A1AE02ABEC37DDA3AD /* YBPopupDialog */;
+			targetProxy = 6A35294B1E3A136EA7FC623B76A61735 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C8884AF06CC050490923477523E8052 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4F4B4BB2D165C5F2E78AE26D7CDE55 /* Pods-YBPopupDialog_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YBPopupDialog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBPopupDialog_Tests/Pods-YBPopupDialog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YBPopupDialog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68B1199BA98BCE8D6F5E775754948636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7964B67B3F832BFDF73868816AE44FF /* Pods-YBPopupDialog_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YBPopupDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBPopupDialog_Example/Pods-YBPopupDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YBPopupDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D19D6449578902956E7BB992CF975AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FEE64537F7E61D55F5E80F6C6880F2 /* Pods-YBPopupDialog_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YBPopupDialog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBPopupDialog_Tests/Pods-YBPopupDialog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YBPopupDialog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDE13449312975F460C09B4FD2336D19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0936598D25920CAF31B41B5A79245B5 /* YBPopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YBPopupDialog/YBPopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBPopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBPopupDialog/YBPopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YBPopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EEF2B0FF64175FB6520ADE3CF8B01A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0936598D25920CAF31B41B5A79245B5 /* YBPopupDialog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YBPopupDialog/YBPopupDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YBPopupDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YBPopupDialog/YBPopupDialog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YBPopupDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8E1953D2673EDF9E36FCDA1B1109D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF92F61012746F298B6EED6536583488 /* Pods-YBPopupDialog_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YBPopupDialog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YBPopupDialog_Example/Pods-YBPopupDialog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YBPopupDialog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C40A85CDCD0C1515A0BA46EC49E3633 /* Build configuration list for PBXNativeTarget "Pods-YBPopupDialog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B1199BA98BCE8D6F5E775754948636 /* Debug */,
+				F8E1953D2673EDF9E36FCDA1B1109D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F328ABFD0F11C3DEFB092B8F770308 /* Build configuration list for PBXNativeTarget "YBPopupDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE13449312975F460C09B4FD2336D19 /* Debug */,
+				EEF2B0FF64175FB6520ADE3CF8B01A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4C85676E2816AB7DFE5C5929AFA8A2F /* Build configuration list for PBXNativeTarget "Pods-YBPopupDialog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8884AF06CC050490923477523E8052 /* Debug */,
+				7D19D6449578902956E7BB992CF975AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
