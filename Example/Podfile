@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YBPopupDialog_Example' do
+  pod 'YBPopupDialog', :path => '../'
+
+  target 'YBPopupDialog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
